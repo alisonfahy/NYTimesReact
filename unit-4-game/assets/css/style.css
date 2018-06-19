@@ -1,0 +1,83 @@
+body {
+   background-image: url(../images/crystals.jpg);
+    background-color: rgb(223, 241, 241);
+    font-family: fantasy;
+} 
+
+
+#header {
+    background-color: lightblue;
+    color: navy;
+    text-align: center;
+}
+
+.maintext {
+    background-color: lightblue;
+    color: navy;
+    text-align: center;
+}
+
+.match {
+    background-color: lightblue;
+    color: navy;
+    height: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.winlose {
+    background-color: lightblue;
+    color: navy;
+    height: 100px;
+    font-size: 12pt;
+    text-align: center;
+    line-height: 0.5em;
+    padding-top: 10px;
+}
+
+#crystal1 {
+    height: 100px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: navy; 
+}
+
+#crystal2 {
+    height: 100px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: navy;
+}
+
+#crystal3 {
+    height: 100px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: navy;  
+}
+
+#crystal4 {
+    height: 100px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: navy;  
+}
+
+#score {
+    background-color: lightblue;
+    color: navy;
+    text-align: center;
+}
+
+.box {
+    background-color: lightblue;
+    color: firebrick;
+    height: 100px;
+    text-align: center;
+    font-size: 3em;
+}
