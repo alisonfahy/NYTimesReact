@@ -1,39 +1,52 @@
 body {
-   background-image: url(../images/crystals.jpg);
-    background-color: rgb(223, 241, 241);
+    height: 100%;
+    background-image: url(../images/Crystals.jpg);
+   background-position: 100% 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
     font-family: fantasy;
 } 
 
 
 #header {
-    background-color: lightblue;
+    /* background-color: rgb(177, 219, 233, 0.5);; */
     color: navy;
     text-align: center;
+    font-size: 4em;
+    text-shadow: 2px 2px lightblue;
 }
 
 .maintext {
-    background-color: lightblue;
+    background-color: rgb(177, 219, 233, 0.5);;
     color: navy;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
+/* Match this number: */
 .match {
-    background-color: lightblue;
+    background-color: rgb(177, 219, 233, 0.5);;
     color: navy;
     height: 100px;
     margin-bottom: 15px;
     text-align: center;
     font-size: 2em;
+    padding-top: 30px;
+    text-shadow: 2px 2px lightblue;
 }
 
 .winlose {
-    background-color: lightblue;
+    background-color: rgb(177, 219, 233, 0.5);
     color: navy;
     height: 100px;
-    font-size: 12pt;
+    font-size: 2em;
     text-align: center;
     line-height: 0.5em;
-    padding-top: 10px;
+    padding-top: 30px;
+    text-shadow: 2px 2px lightblue;
+
 }
 
 #crystal1 {
@@ -42,6 +55,12 @@ body {
     margin-top: 30px;
     margin-bottom: 20px;
     color: navy; 
+    background-image: url(../images/blueCrystal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px lightblue;
+    
+  
 }
 
 #crystal2 {
@@ -50,6 +69,10 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     color: navy;
+    background-image: url(../images/clearCrystal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px lightblue;
 }
 
 #crystal3 {
@@ -58,6 +81,10 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     color: navy;  
+    background-image: url(../images/greenCrystal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px lightblue;
 }
 
 #crystal4 {
@@ -66,18 +93,28 @@ body {
     margin-top: 30px;
     margin-bottom: 20px;
     color: navy;  
+    background-image: url(../images/redCrystal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px lightblue;
 }
 
-#score {
-    background-color: lightblue;
+/* Your total score is: */
+#score { 
+    background-color: rgb(177, 219, 233, 0.5);;
     color: navy;
     text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    text-shadow: 2px 2px lightblue;
 }
 
+/* Score goes here: */
 .box {
-    background-color: lightblue;
+    background-color: rgb(177, 219, 233, 0.5);;
     color: firebrick;
     height: 100px;
     text-align: center;
     font-size: 3em;
+    padding: 30px;
 }
